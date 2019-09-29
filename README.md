@@ -21,6 +21,7 @@ docker pull andrey01/cool-retro-term
 
 docker pull alexballas/cool-retro-term
 xhost + && docker run -it --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY alexballas/cool-retro-term
+netstat -lnp
 
 https://gist.github.com/h3r/2d5dcb2f64cf34b6f7fdad85c57c1a45
 
