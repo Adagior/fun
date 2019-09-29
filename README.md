@@ -5,9 +5,15 @@ https://opensource.com/article/18/2/command-line-tools-productivity
 
 
 
-https://github.com/Swordfish90/cool-retro-term
+docker
 ```
 wget -qO- https://get.docker.com/ | sh
+https://www.runoob.com/docker/ubuntu-docker-install.html
+```
+
+https://github.com/Swordfish90/cool-retro-term
+```
+
 https://github.com/mikkorepolainen/cool-retro-term-docker
 https://gist.github.com/h3r/2d5dcb2f64cf34b6f7fdad85c57c1a45
 
