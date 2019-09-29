@@ -6,6 +6,9 @@ https://opensource.com/article/18/2/command-line-tools-productivity
 
 
 https://github.com/Swordfish90/cool-retro-term
+```
+https://github.com/mikkorepolainen/cool-retro-term-docker
+```
 
 https://github.com/svenstaro/genact
 
@@ -19,8 +22,12 @@ https://github.com/dustinkirkland/hollywood
 
 ```
 sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &
+sudo ln -s /usr/libexec/docker/docker-runc-current /usr/bin/docker-runc
+
 docker create centos:latest
-docker run
+docker create centos:latest
+docker run -P jess/hollywood
 https://hub.docker.com/r/jess/hollywood/
+
 ```
 https://github.com/yaronn/blessed-contrib
