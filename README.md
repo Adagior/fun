@@ -7,6 +7,7 @@ https://opensource.com/article/18/2/command-line-tools-productivity
 
 https://github.com/Swordfish90/cool-retro-term
 ```
+wget -qO- https://get.docker.com/ | sh
 https://github.com/mikkorepolainen/cool-retro-term-docker
 https://gist.github.com/h3r/2d5dcb2f64cf34b6f7fdad85c57c1a45
 
