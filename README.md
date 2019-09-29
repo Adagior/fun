@@ -18,6 +18,9 @@ https://github.com/svenstaro/genact
 https://github.com/dustinkirkland/hollywood
 
 ```
+sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &
+docker create centos:latest
+docker run
 https://hub.docker.com/r/jess/hollywood/
 ```
 https://github.com/yaronn/blessed-contrib
