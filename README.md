@@ -14,8 +14,10 @@ https://www.runoob.com/docker/ubuntu-docker-install.html
 https://github.com/Swordfish90/cool-retro-term
 ```
 yum groupinstall 'Development Tools'
-https://github.com/mikkorepolainen/cool-retro-term-docker
+docker pull andrey01/cool-retro-term
 https://gist.github.com/h3r/2d5dcb2f64cf34b6f7fdad85c57c1a45
+
+https://github.com/mikkorepolainen/cool-retro-term-docker(broken)
 
 sudo apt-get install qt5-default
 ```
