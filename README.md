@@ -24,10 +24,9 @@ https://github.com/dustinkirkland/hollywood
 sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &
 sudo ln -s /usr/libexec/docker/docker-runc-current /usr/bin/docker-runc
 
-docker create centos:latest
-docker create centos:latest
-docker run -P jess/hollywood
-https://hub.docker.com/r/jess/hollywood/
+http://blog.dustinkirkland.com/2014/12/hollywood-technodrama.html
+https://hub.docker.com/r/jturpin/hollywood/
+
 
 ```
 https://github.com/yaronn/blessed-contrib
