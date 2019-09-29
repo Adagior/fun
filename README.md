@@ -15,6 +15,10 @@ https://github.com/Swordfish90/cool-retro-term
 ```
 yum groupinstall 'Development Tools'
 docker pull andrey01/cool-retro-term
+
+docker pull alexballas/cool-retro-term
+xhost + && docker run -it --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY alexballas/cool-retro-term
+
 https://gist.github.com/h3r/2d5dcb2f64cf34b6f7fdad85c57c1a45
 
 https://github.com/mikkorepolainen/cool-retro-term-docker(broken)
