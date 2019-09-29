@@ -40,7 +40,7 @@ https://github.com/svenstaro/genact
 https://github.com/dustinkirkland/hollywood
 
 ```
-
+nano ~/.bashrc
 
 http://blog.dustinkirkland.com/2014/12/hollywood-technodrama.html
 https://hub.docker.com/r/jturpin/hollywood/
