@@ -9,6 +9,9 @@ docker
 ```
 wget -qO- https://get.docker.com/ | sh
 https://www.runoob.com/docker/ubuntu-docker-install.html
+
+sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &
+sudo ln -s /usr/libexec/docker/docker-runc-current /usr/bin/docker-runc
 ```
 
 https://github.com/Swordfish90/cool-retro-term
@@ -37,8 +40,7 @@ https://github.com/svenstaro/genact
 https://github.com/dustinkirkland/hollywood
 
 ```
-sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock &
-sudo ln -s /usr/libexec/docker/docker-runc-current /usr/bin/docker-runc
+
 
 http://blog.dustinkirkland.com/2014/12/hollywood-technodrama.html
 https://hub.docker.com/r/jturpin/hollywood/
